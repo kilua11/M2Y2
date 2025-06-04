@@ -5,7 +5,7 @@ import requests
 free = 6
 decompos = ["Туалетная бумага", "Огрызок яблока", "Банановая кожура", "Мясопродукты", "Кожура апельсина", "Фотографии", "КостИ", "Жевательная резинка", "Одежда", "Резиновые покрышки", "Пластиковые бутылки", "Губки", "Подгузники", "Прокладки", "Леска", "Стекло"]
 non_decomposable = ["Свинец", "Ртуть", "Мышьяк", "Пластмассы", "Синтетика", "Золото"]
-bot = telebot.TeleBot("7543013205:AAG0srh0sgilaYiM9ghP67nIeI1xA_B3yE4")
+bot = telebot.TeleBot("")
 it_meme = os.listdir("./memes/sec_meme")
 anim_meme = os.listdir("./memes/animal_meme")
 def get_duck_image_url():    
